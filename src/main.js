@@ -1,6 +1,6 @@
 import "./style.css";
 import { projects } from "./data/projects.js";
-import { initAnimations } from "./animations.js";
+import { initAnimations } from "./animation.js";
 
 /* ==========================================================
    GLOBAL OVERLAYS (preloader, cursor, scroll bar, bg orbs)
