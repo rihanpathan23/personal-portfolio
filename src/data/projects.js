@@ -1,45 +1,16 @@
 export const projects = [
   {
-    id: "star-ai",
-    accent: "blue",
-    badge: null,
-    title: "Star AI",
-    tagline: "College AI Chatbot",
-    description:
-      "A college-focused AI chatbot designed to provide instant answers to student queries through a simple conversational interface.",
-    problem:
-      "Reduces information delays by helping students quickly access important college-related information such as today's lectures, academic updates, notices, and common questions without waiting for manual responses.",
-    stack: ["HTML", "CSS", "JavaScript", "AI"],
-    demo: "https://star-ai-ybbi.onrender.com/",
-    github: "#"
-  },
-  {
     id: "team-star",
     accent: "emerald",
-    badge: null,
+    badge: "Featured",
     title: "Team Star System",
-    tagline: "Esports Management Platform",
-    description:
-      "A complete esports team management platform built to organize team operations and simplify tournament management.",
-    problem:
-      "Helps esports teams track tournament schedules, entry fees, profits and losses, remaining funds, match history, and strategy discussions in one centralized platform.",
+    tagline: "Esports Match Management Platform",
+    description: "A complete esports team management platform built to organize teams, manage matches and simplify tournament operations from one dashboard.",
+    problem: "Solves scattered esports management — tracks tournament schedules, entry fees, profits & losses, remaining funds, match history and team strategy in one place.",
+    feature: "Real-time profit/loss tracking and match scheduling.",
     stack: ["Python", "Flask", "SQLite", "JavaScript"],
     demo: "https://team-star-management-system.onrender.com/",
     github: "#"
-  },
-  {
-    id: "portfolio",
-    accent: "purple",
-    badge: null,
-    title: "Personal Portfolio",
-    tagline: "Developer Portfolio",
-    description:
-      "A modern responsive developer portfolio showcasing projects, technical skills, achievements, and career journey.",
-    problem:
-      "Creates a professional online presence where recruiters and clients can explore projects, skills, and contact information in one place.",
-    stack: ["Vite", "Tailwind CSS", "JavaScript"],
-    demo: "https://personal-portfolio-green-five-71.vercel.app/",
-    github: "https://github.com/rihanpathan23"
   },
   {
     id: "college-desk",
@@ -47,38 +18,88 @@ export const projects = [
     badge: "Official College Project",
     title: "College Desk Portal",
     tagline: "Digital Inward / Outward System",
-    description:
-      "Official college project for daily college use — eliminates the need for a physical register for inward and outward records used by the staff of K.J. Somaiya College every day.",
-    problem:
-      "Replaces the manual register used daily by the staff of K.J. Somaiya College for inward and outward records — delivering a fast, searchable, paperless system to track all office correspondence digitally.",
+    description: "Official college project for daily use — removes physical register for inward and outward records used by staff of K.J. Somaiya College every day.",
+    problem: "Replaces manual register with fast, searchable, paperless system to track all office correspondence digitally.",
+    feature: "Searchable digital register with instant export.",
     stack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     demo: "#",
     github: "#"
   },
   {
-    id: "tours",
+    id: "peace-travel",
     accent: "pink",
     badge: "Client Project",
-    title: "Tours & Travel Platform",
-    tagline: "Travel Agency Website",
-    description:
-      "A premium client project for a tours and travel agency featuring an animated destination showcase, booking flows, and a modern travel experience.",
-    problem:
-      "Gives the travel agency a modern, animated web presence that converts visitors into customers with rich destination storytelling and smooth booking UX.",
+    title: "Peace Travel",
+    tagline: "Tours & Travel Agency",
+    description: "Premium client project for a tours and travel agency with animated destination showcase, booking flows and modern travel experience.",
+    problem: "Gives agency a modern animated presence that converts visitors into customers with rich storytelling and smooth booking UX.",
+    feature: "Dynamic destination filtering + smooth scroll animations.",
     stack: ["React", "Vite", "Tailwind CSS", "JavaScript"],
-    demo: "#",
+    demo: "https://client-project-delta-ruby.vercel.app/",
+    github: "#"
+  },
+  {
+    id: "tours-client",
+    accent: "purple",
+    badge: "Client Project",
+    title: "Tours & Travel Platform",
+    tagline: "Travel Booking System",
+    description: "Modern travel booking platform for client to showcase tour packages, destinations and handle inquiries seamlessly.",
+    problem: "Replaces outdated brochures with dynamic mobile-friendly website that increases engagement and booking conversions.",
+    feature: "Booking inquiry system + responsive gallery.",
+    stack: ["React", "Vite", "Tailwind CSS", "JavaScript"],
+    demo: "https://tours-and-travel-client-project.vercel.app/",
+    github: "#"
+  },
+  {
+    id: "star-ai",
+    accent: "blue",
+    badge: null,
+    title: "Star AI",
+    tagline: "College AI Chatbot",
+    achievement: "🏆 Technofest 2026 – First Prize",
+    description: "College-focused AI chatbot for instant answers to student queries through simple conversational interface.",
+    problem: "Reduces delays by helping students quickly access lectures, academic updates, notices and common questions.",
+    feature: "Instant context-aware responses for college queries.",
+    stack: ["HTML", "CSS", "JavaScript", "AI"],
+    demo: "https://star-ai-ybbi.onrender.com/",
+    github: "#"
+  },
+  {
+    id: "flight-reservation",
+    accent: "amber",
+    badge: "College Client Project",
+    title: "Flight Reservation System",
+    tagline: "Airline Booking Platform",
+    description: "Complete flight booking simulation with search, seat selection and ticket generation made for final submission.",
+    problem: "Provides realistic booking interface for academic evaluation with complex state management and booking logic.",
+    feature: "Interactive seat selection with real-time availability.",
+    stack: ["React", "Node.js", "Express", "MongoDB"],
+    demo: "https://airline-reservation-client.vercel.app/",
+    github: "#"
+  },
+  {
+    id: "easy-bus",
+    accent: "orange",
+    badge: "Competition Project",
+    title: "Easy Bus",
+    tagline: "Bus Ticket Booking",
+    description: "Made for Avishkar competition. Streamlined platform for booking bus tickets with focus on speed and UX.",
+    problem: "Simplifies local bus booking with intuitive interface to find and reserve seats quickly.",
+    feature: "Lightning-fast search + minimal-step booking.",
+    stack: ["React", "Tailwind CSS", "JavaScript"],
+    demo: "https://easy-bus-opal.vercel.app/",
     github: "#"
   },
   {
     id: "attendance",
-    accent: "amber",
+    accent: "lime",
     badge: null,
     title: "Online Attendance System",
     tagline: "Real-time Attendance Tracker",
-    description:
-      "A web-based attendance management system for tracking student attendance in real time, generating reports, and reducing manual paperwork.",
-    problem:
-      "Eliminates manual attendance registers and paperwork — teachers can mark, track, and export attendance digitally with instant analytics and monthly reports.",
+    description: "Web-based attendance system for tracking student attendance in real time with reports.",
+    problem: "Eliminates manual registers — teachers can mark, track and export attendance digitally with instant analytics.",
+    feature: "Automated reports + CSV export.",
     stack: ["Python", "Flask", "SQLite", "JavaScript"],
     demo: "#",
     github: "#"
